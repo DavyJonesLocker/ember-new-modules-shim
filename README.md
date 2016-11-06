@@ -21,7 +21,7 @@ bower uninstall ember-cli-shims --save
 
 ## Legal
 
-[DockYard](http://dockyard.com/ember-consulting), LLC &copy; 2016
+[DockYard](http://dockyard.com/ember-consulting), Inc. &copy; 2016
 
 [@dockyard](http://twitter.com/dockyard)
 
