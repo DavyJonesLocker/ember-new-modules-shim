@@ -1,27 +1,28 @@
-# Ember-new-modules-shim
+# Ember New Modules Shim
 
-This README outlines the details of collaborating on this Ember addon.
+This is a shim addon that declares ES6 modules that shim the Ember global,
+according to the new [JavaScript Modules API RFC](https://github.com/emberjs/rfcs/pull/176).
+
+## Warning
+
+This is an expirimental shim. This is for science, not for profit.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-new-modules-shim`
-* `npm install`
-* `bower install`
+```
+ember install ember-new-modules-shim
+```
 
-## Running
+Optionally uninstall the `ember-cli-shims` Bower module.
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```
+bower uninstall ember-cli-shims --save
+```
 
-## Running Tests
+## Legal
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+[DockYard](http://dockyard.com/ember-consulting), LLC &copy; 2016
 
-## Building
+[@dockyard](http://twitter.com/dockyard)
 
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+[Licensed under the MIT license](http://www.opensource.org/licenses/mit-license.php)
