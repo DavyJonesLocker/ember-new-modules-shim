@@ -7,6 +7,8 @@ according to the new [JavaScript Modules API RFC](https://github.com/emberjs/rfc
 
 This is an expirimental shim. This is for science, not for profit.
 
+Keep in mind that as this RFC evolves so will the addon so if you're adverse to churn in your app you may not want to opt in yet.
+
 ## Installation
 
 ```
