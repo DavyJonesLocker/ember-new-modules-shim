@@ -21,6 +21,20 @@ Optionally uninstall the `ember-cli-shims` Bower module.
 bower uninstall ember-cli-shims --save
 ```
 
+and in your `ember-cli-build.js`:
+
+```
+module.exports = function(defaults) {
+  var app = new EmberApp(defaults, {
+    vendorFiles: {
+      'app-shims.js': null
+    }
+  });
+
+  return app.toTree();
+};
+```
+
 ## Legal
 
 [DockYard](http://dockyard.com/ember-consulting), Inc. &copy; 2016
