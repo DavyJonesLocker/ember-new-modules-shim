@@ -15,13 +15,17 @@ Keep in mind that as this RFC evolves so will the addon so if you're adverse to 
 ember install ember-new-modules-shim
 ```
 
-Optionally uninstall the `ember-cli-shims` Bower module.
+## (Optional) Disabling `ember-cli-shims`
+
+I recommend doing this after making the transition.
+
+Start with uninstalling the `ember-cli-shims` Bower module:
 
 ```
 bower uninstall ember-cli-shims --save
 ```
 
-and in your `ember-cli-build.js`:
+Then add the following config to your `EmberApp` in your `ember-cli-build.js` file:
 
 ```
 module.exports = function(defaults) {
