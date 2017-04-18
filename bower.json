@@ -1,6 +1,4 @@
 {
   "name": "ember-new-modules-shim",
-  "dependencies": {
-    "ember": "~2.9.0"
-  }
+  "dependencies": {}
 }
