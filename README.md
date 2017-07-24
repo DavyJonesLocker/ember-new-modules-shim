@@ -1,5 +1,7 @@
 # Ember New Modules Shim
 
+**[ember-new-modules-shim is built and maintained by DockYard, contact us for expert Ember.js consulting](https://dockyard.com/ember-consulting)**.
+
 This is a shim addon that declares ES6 modules that shim the Ember global,
 according to the new [JavaScript Modules API RFC](https://github.com/emberjs/rfcs/pull/176).
 
